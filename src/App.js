@@ -1,9 +1,19 @@
 import './App.css';
 
+import Home from './components/Home/Home';
+import Header from './components/Header/Header';
+
 function App() {
   return (
     <div className='App'>
-      <h1>let's goo</h1>
+      <Header />
+      <Home />
+      {/* Home */}
+      {/* Header */}
+      {/* Banner */}
+      {/* Cards */}
+      {/* Footer */}
+      {/* Search Page */}
     </div>
   );
 }
